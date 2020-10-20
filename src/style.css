@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-color: #fee3b8;
+}
+
+form {
+  width: 60%;
+  margin: auto;
+}
+.form-label {
+  display: inline-block;
+}
+
+.form-field {
+  width: 60%;
+  margin: auto;
+}
+.form-input {
+  float: inline-start;
+  float: right;
+}
+
+.container {
+  background-color: white;
+  margin: auto;
+  width: 40%;
+  padding: 0 0 10px 0;
+  box-shadow: 5px 10px 10px black;
+}
+
+.submit-table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: left;
+}
+
+.submit-table {
+  margin: auto;
+  width: 60%;
+}
+
+th {
+  width: 20%;
+}
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+.optionTable {
+  margin: auto;
+  width: 60px;
+}
+
+.info-table {
+  margin: 20px auto;
+  width: 40%;
+}
+
+.submit-button {
+  width: auto;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.option-result {
+  margin: auto;
+  margin-top: 2px;
+  width: 60%;
+  border: 1px solid black;
+  border-collapse: left;
+}
+
+.form-field {
+  margin-bottom: 10px;
+}

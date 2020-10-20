@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+  <div class="container">
+<h1>Luggage Form</h1>
+<form id="form">
+  <div class="form-field">
+    <label for="name" class="form-label">Name:</label>
+    <input type="text" id="name" name="name" class="form-input">
+  </div>
+  <div class="form-field">
+    <label for="zip"  class="form-label">ZIP: </label>
+    <input type="number" id="zip" name="zip" class="form-input">
+  </div>
+  <div class="form-field">
+    <label for="city"  class="form-label">City: </label>
+    <input type="text" id="city" name="city" class="form-input">
+  </div>
+  <div class="form-field">
+    <label for="address"  class="form-label">Address: </label>
+    <input type="text" id="address" name="address" class="form-input">
+  </div>
+    <div class="form-field">
+      <label for="phone"  class="form-label">Phone: </label>
+      <input type="number" id="phone" name="phone"  class="form-input">
+    </div>
+    <div class="form-field">
+      <label for="email"  class="form-label">Email: </label>
+      <input type="email" id="email" name="email"  class="form-input">
+    </div>
+    <div class="form-field">
+      <label for="options"  class="form-label">Options:</label>
+      <input list="options" name="options"  class="form-input">
+          <datalist id="options">
+              <option value="Optimal">
+              <option value="Extra">
+              <option value="Medium">
+              <option value="Standard">
+          </datalist>
+        </div>
+    
+    <button class="submit-button" id="submit-button"type="button">SUBMIT</button>
+  </form>
+    
+      <table class="info-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Balesetibiztosítási limit</th>
+          <th>Készpénz</th>
+          <th>Poggyász</th>
+          <th>Poggyász limit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="Optimal">
+          <td>Optimal</td>
+          <td>200 000 000 Ft</td>
+          <td>100 000 Ft</td>
+          <td>200 000 Ft</td>
+          <td>200 000 000 Ft</td>
+        </tr>
+        <tr id="Extra">
+          <td>Extra</td>
+          <td>150 000 000 Ft</td>
+          <td>100 000 Ft</td>
+          <td>100 000 Ft</td>
+          <td>200 000 000 Ft</td>
+        </tr>
+        <tr id="Medium">
+          <td>Medium</td>
+          <td>100 000 000 Ft</td>
+          <td>0 Ft</td>
+          <td>50 000 Ft</td>
+          <td>200 000 000 Ft</td>
+        </tr>
+        <tr id="Standard">
+          <td>Standard</td>
+          <td>50 000 000 Ft</td=>
+          <td>0 Ft</td>
+          <td>0 Ft</td>
+          <td>200 000 000 Ft</td>
+        </tr>
+      </tbody>
+      </table>
+
+
+<table class="submit-table">
+    <tr>
+      <th>Name:</th>
+      <td id="name-result"></td>
+    </tr>
+    <tr>
+      <th>ZIP:</th>
+      <td id="zip-result"></td>
+    </tr>
+    <tr>
+      <th>City:</th>
+      <td id="city-result"></td>
+    </tr>
+    <tr>
+      <th>Address:</th>
+      <td id="address-result"></td>
+    </tr>
+    <tr>
+      <th>Phone:</th>
+      <td id="phone-result"></td>
+    </tr>
+    <tr>
+      <th>E-mail:</th>
+      <td id="email-result"></td>
+    </tr>
+    <tr>
+      <th>Option:</th>
+      <td id="option-result"></td>
+    </tr>
+  </table>
+  
+  <table class="option-result">
+  <thead>
+    <tr>
+      <th>Balesetibiztosítási limit</th>
+      <th>Készpénz</th>
+      <th>Poggyász</th>
+      <th>Poggyász limit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="balesetbiztositasi-limit"></td>
+      <td id="keszpenz"></td>
+      <td id="poggyasz"></td>
+      <td id="poggyasz-limit"></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
